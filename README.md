@@ -44,3 +44,11 @@ Empathetic Dialogues: https://huggingface.co/datasets/facebook/empathetic_dialog
 
 
 
+## File Detail
+
+Image classification training: `ImgClassification/`
+
+webui： `DL_chatbox/`
+
+LSTM training: `LSTM/`
+
