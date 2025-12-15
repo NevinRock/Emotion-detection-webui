@@ -44,11 +44,26 @@ Empathetic Dialogues: https://huggingface.co/datasets/facebook/empathetic_dialog
 
 
 
-## File Detail
 
-Image classification training: `ImgClassification/`
 
-webui： `DL_chatbox/`
+## Project Structure
 
-LSTM training: `LSTM/`
+- **Image classification training**: `ImgClassification/`
+   Training code for facial emotion classification models (e.g., ResNet-50 / CNN baseline).
+- **Web UI (Gradio / demo app)**: `DL_chatbox/`
+   Interactive web interface that integrates face detection + emotion classification + dialogue response.
+- **Dialogue (LSTM) training**: `LSTM/`
+   Training code for the LSTM-based dialogue component.
+
+## External Files (Not Included in the Repo)
+
+### GloVe Embeddings for LSTM
+
+For the LSTM module, we use **GloVe 100d** embeddings (e.g., `glove.6B.100d.txt`).
+ Due to file size limits, the GloVe file is **not tracked in this repository**.
+
+Download it from: `https://pan.quark.cn/s/eb4c09d2e4dc`
+ Then place it into:
+
+- `LSTM/`
 
