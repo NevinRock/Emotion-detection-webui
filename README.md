@@ -1,4 +1,4 @@
-# COMP0220 Coursework-emotion detection 
+#emotion detection 
 
 ## Introduction
 
