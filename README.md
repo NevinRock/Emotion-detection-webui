@@ -1,4 +1,4 @@
-#emotion detection 
+# Emotion Detection 
 
 ## Introduction
 
